@@ -79,14 +79,14 @@ ul {
   }
 
 .HomePageLeft{
-  width: 51.3%;
-  height: 100%;
+  width: 4095px;
+  height: 2950px;
   overflow: hidden;
 }
 
 .HomePageRight{
   width: 25.4%;
-  height: 100%;
+  height: 100%
   overflow: hidden;
 }
 
@@ -677,7 +677,7 @@ ul {
 
 .SectionAtTheTop{
     width: 2030px;
-    height: 2850px;
+    height: 2950px;
     position: relative;
     bottom: 0;
     color: #f1f1f1;

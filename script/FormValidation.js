@@ -50,7 +50,19 @@ const validateInputsEmail= () => {
     }
 }
 
-
+function sendEmail(){
+Email.send({
+Host : "smtp.elasticemail.com",
+Username : "aleksandar.alempic93@gmail.com",
+Password : "79B64EFB6146214D589EC15D1A55A467F2BF",
+To : 'aleksandar.alempic93@gmail.com',
+From : document.getElementById("email").value,
+Subject : "",
+Body : bodyInput.value,
+}).then(
+message => alert(message)
+);
+}
 
 form.addEventListener("submit", (e) => {
       e.preventDefault();
@@ -58,7 +70,7 @@ form.addEventListener("submit", (e) => {
       validateInputsBody();
       regexEmail();
       validateInputsEmail();
-     
+      sendEmail();
 });
 
 
