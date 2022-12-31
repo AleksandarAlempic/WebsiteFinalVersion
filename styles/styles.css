@@ -10,20 +10,15 @@ textarea{
     padding: 25px;
 }
 
-
- html, body{
-  display: flexbox;
-  transform: scale(50%);
-  transform-origin: top left; 
-  min-width: 200%;
+html, body{
+  display: inline-flex;
   overflow-y: hidden; 
-  overflow-x: hidden; 
-  /* height: 200%;
-  min-width: 8000px; */ 
-  /* transform-origin: top left; */
-  /* transform: scale(50%);
-  */
-} 
+  overflow-x: hidden;
+  height: 200%;
+  width: 8000px;
+  transform-origin: top left;
+  transform: scale(50%);
+}
 
 ul {
   list-style-type: none;
@@ -56,10 +51,8 @@ ul {
   .container img {vertical-align: middle;}
   
   .contentLeftSide {
-    display: inline-flex;
-    width: 63.4%;
+    width: 48.8%;
     height: 3.7%;
-    margin-top: 0.21%;
     position: absolute;
     top: 0;
     left: 0;
@@ -72,34 +65,29 @@ ul {
     overflow: hidden;
   }
 
-  
   .contentRightSide {
-    height: 17.7%;
-    width: 30.9%;
+    height: 12.7%;
+    width: 22.9%;
     top: 0;
     position: absolute;
-    z-index:30;
+    z-index: 2;
     bottom: 0;
-    background: rgb(25,21,20); 
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(25,21,20); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    padding: 0.90%;
-    margin-top: 10px;
+    padding: 1.3%;
   }
 
 .HomePageLeft{
-  min-width: 4095px;
-  min-height: 2950px;
+  width: 4095px;
+  height: 2950px;
   overflow: hidden;
-  display: inline-flex;
-  flex-wrap: wrap;
 }
 
 .HomePageRight{
-  min-width: 100%;
-  min-height: 100%;
+  width: 25.4%;
+  height: 100%
   overflow: hidden;
-  position: right;
 }
 
 .HomePageRightimg1{
@@ -143,7 +131,7 @@ ul {
       .PortfolioLeftDefaultBackground{
         width: 100%;
         height: 100%;
-        background: url('../images/Portfolio/BackSide.webp');
+        background: url('../images/Portfolio/HomePage1.jpg');
         }
       
       
@@ -157,7 +145,7 @@ ul {
           .PortfolioLeftThirdBackground{
             width: 100%;
             height: 100%;
-            background: url('../images/Portfolio/HomePage1.jpg');
+            background: url('../images/Portfolio/BackSide.webp');
             }
 
             .PortfolioPageRightimg1{
@@ -177,25 +165,22 @@ ul {
             }
             
             .Projects{
-              display: inline-flexbox;
+              display: inline-flex;
               position: absolute;
-              max-width: 100%;
-              max-height: 100%;
             }
             
             .portfolioImg{
-              width: 100%; 
-              height: 725px;
+              width: 1100px; 
+              height: 650px;
             }
 
             .labelProjects{
-              margin-left: 8.3%;
-              margin-top: 10%;
-              width: 9%;
+              margin-left: 74%;
+              margin-top: 100%;
               font-size: 95px;
               color: white;
-              z-index: 35;
-              background: rgb(25,21,20);
+              z-index: 1;
+              /* background: rgb(25,21,20); /* Fallback color */
               background: rgba(0, 0, 0, 0.3);  /*Black background with 0.5 opacity */
             }
 
@@ -216,7 +201,7 @@ ul {
             .labelForIntro{
               position: absolute;
               margin-left: 20%;
-              margin-top: 5.7%;
+              margin-top: 4.2%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -229,7 +214,7 @@ ul {
             .labelForOther{
               position: absolute;
               margin-left: 20%;
-              margin-top: 5.7%;
+              margin-top: 330px;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -242,7 +227,7 @@ ul {
             .labelForContactMe{
               position: absolute;
               margin-left: 20%;
-              margin-top: 5.6%;
+              margin-top: 4.2%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -254,10 +239,10 @@ ul {
             
             .ContactMe{
               width: 2300px;
-              height: 680px;
+              height: 765px;
               font-size: 90px;
               margin-left: 20%;
-              margin-top: 7.9%;
+              margin-top: 6%;
               position: absolute;
               opacity: 0.75;
               overflow: hidden;
@@ -265,26 +250,12 @@ ul {
               color: white;
               background: rgb(30,21,20); 
               background: rgba(0, 0, 0, 0.9);
-             
             }
 
             .labelForExpirience{
               position: absolute;
               margin-left: 20%;
-              margin-top: 21%;
-              font-size: 100px;
-              font-style: normal;
-              color: white;
-              opacity: 0.9;
-              background: rgb(25,21,20); 
-              background: rgba(0, 0, 0, 0.8);
-              z-index: 3;
-            }
-
-            .labelForHobbies{
-              position: absolute;
-              margin-left: 20%;
-              margin-top: 21%;
+              margin-top: 16%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -306,54 +277,50 @@ ul {
               background: rgba(0, 0, 0, 0.6);
               z-index: 3;
             }
-
-            .divForPortfolio{
-              display: flex;
-            }
-
-          
              
             .Iframe1{
-              text-align: end;
               width: 1100px;
-              padding-bottom: 20%;
-              margin-left: 120px;
-              margin-top: 0.5%; 
+              height: 650px;
+              margin-left: 75%;
+              margin-top: 155%;
+              position: absolute;
+              opacity: 0.87;
               z-index: 1;
-              flex: 30%;
             }
 
             .Iframe2{
-              text-align: end;
-                    width: 1100px;
-                    padding-bottom: 20%;
-                    margin-left: 200px;
-                    margin-top: 0.5%; ;
-                    z-index: 1;
+              width: 1100px;
+              height: 650px;
+              margin-left: 1500px;
+              margin-top: 500px;
+              position: absolute;
+              opacity: 0.8;
+              z-index: 1;
             }
 
             .Iframe3{
-                    text-align: end;
-                    width: 1100px;
-                    padding-bottom: 20%;
-                    margin-left: 200px;
-                    margin-top: 0.5%; 
-                    z-index: 1;
+              width: 1100px;
+              height: 500px;
+              margin-left: 2750px;
+              margin-top: 500px;
+              position: absolute;
+              opacity: 0.8;
+              z-index: 1;
             }
 
             .Introduction{
               width: 2300px;
-              height: 785px;
+              height: 765px;
               font-size: 90px;
               margin-left: 20%;
-              margin-top: 7.9%;
+              margin-top: 6%;
               position: absolute;
               opacity: 0.75;
               overflow: hidden;
               z-index: 3;
               color: white;
               background: rgb(30,21,20); 
-              background: rgba(0, 0, 0, 0.9);
+              background: rgba(0, 0, 0, 0.8);
             }
 
             .divIntroduction1  {
@@ -415,11 +382,11 @@ ul {
 
             .ContactMeForm{
               width: 2300px;
-              height: 1400px;
+              height: 1415px;
               font-size: 85px;
               overflow: hidden;
-              margin-left: 20%;
-              margin-top: 21.9%;
+              margin-left: 19.5%;
+              margin-top: 17.3%;
               position: absolute;
               opacity: 0.75;
               overflow: hidden;
@@ -435,7 +402,7 @@ ul {
               font-size: 85px;
               overflow: hidden;
               margin-left: 20.9%;
-              margin-top: 16.5%;
+              margin-top: 17.8%;
               position: absolute;
               opacity: 0.75;
               z-index: 3;
@@ -449,7 +416,7 @@ ul {
             .LabelForContactMeForm{
               position: absolute;
               margin-left: 20%;
-              margin-top: 19.5%;
+              margin-top: 16%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -457,6 +424,14 @@ ul {
               background: rgb(25,21,20); 
               background: rgba(0, 0, 0, 0.8);
               z-index: 3;
+            }
+
+            .inputFullName{
+              margin-left: 4.5%;
+              margin-top: 7%;
+              width:950px;
+              height:125px;
+              font-size: 90px;
             }
 
             .error-hintEmail{
@@ -518,7 +493,6 @@ ul {
               height:120px;
               font-size: 80px;
               color: white;
-              border-color: white;
               background: rgb(25,21,20); 
               background: rgba(0, 0, 0, 0.6)
             }
@@ -531,7 +505,6 @@ ul {
               height:120px;
               font-size: 80px;
               color: white;
-              border-color: white;
               background: rgb(25,21,20); 
               background: rgba(0, 0, 0, 0.6)
             }
@@ -544,8 +517,7 @@ ul {
               font-size: 80px;
               color: white;
               background: rgb(25,21,20); 
-              background: rgba(0, 0, 0, 0.6);
-              border-color: white;
+              background: rgba(0, 0, 0, 0.6)
             }
              
             form{
@@ -667,7 +639,7 @@ ul {
                   }
     
                 .AboutMePageRightimg1{
-                  /* float: right; */
+                  float: right;
                   width: 1990px;
                   height: 2850px;
                   background: no-repeat url('../images/AboutMe/farkas-mario-RSUftfqgJKY-unsplash.jpg');
@@ -675,17 +647,17 @@ ul {
                 }
                 
                 .AboutMePageRightimg2{
-                  /* float: right; */
+                  float: right;
                   width: 1990px;
                   height: 2850px;
                   background: no-repeat url('../images/AboutMe/Tesla_u_Novom_Sadu.jpg');
                 }
 
                 .AboutMePageRightimg3{
-                  /* float: right; */
+                  float: right;
                   width: 1990px;
                   height: 2850px;
-                  background: no-repeat url('../images/AboutMe/FrontSide.webp');
+                  background: no-repeat url('../images/AboutMe/AboutMe5.jpg');
                 }
 
                 .ContactMeLeftFirstBackground{
@@ -695,17 +667,17 @@ ul {
                   }
                   
                   .ContactMePageRightimg1{
-                    width: 100%;
-                    height: 100%;
+                    float: right;
+                    width: 1990px;
+                    height: 2850px;
                     background: no-repeat url('../images/AboutMe/AboutMe5.jpg');
-                    position: relative;
                   } 
       
 
 
 .SectionAtTheTop{
-    min-width: 2030px;
-    min-height: 2950px;
+    width: 2030px;
+    height: 2950px;
     position: relative;
     bottom: 0;
     color: #f1f1f1;
@@ -722,18 +694,12 @@ ul {
 }
 
 .textForIntro{
-  font-size: 95px;
+  margin-left: 15px;
+  padding-bottom: 10px;
   color: white;
-  font-weight: 500;
-  opacity: 0.9;
-  transform: translate(54px);
-  margin: 0;
   font-style: normal;
-  color: white;
-  opacity: 0.9;
-  z-index: 3;
-  font-family: serif;
-  margin-left: 1.8%;
+  font-size: 80px;
+  display: inline;
 }
 
 .mySlides .mySlidesRightBackground .mySlidesLeftBackgroundIntro .mySlidesLeftBackgroundExpirience 
@@ -774,7 +740,7 @@ img {vertical-align: middle;}
   position: absolute;
   float: left;
   margin-left: 80px;
-  margin-top: 33%;
+  margin-top: 26%;
   width: 875px;
   height: 715px;
   background: rgb(25,21,20); /* Fallback color */
@@ -968,12 +934,13 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  z-index: 5;
+  z-index: 1;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 32.8%;
+  
+  right: 49%;
   border-radius: 3px 0 0 3px;
 }
 
@@ -1028,4 +995,53 @@ img {vertical-align: middle;}
   border-radius: 50%;
 }
 
+/* .animation {
+    /* animation: makePointer ease-out both 1s;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%); 
+      background: left/cover no-repeat url('../images/HomePage1.jpg');
+    */
+
+    /* CSS For Sliding Images from Left to Right */
+    /* .firstContainer{   
+      width: 4095px;
+      height: 2850px;
+      overflow: hi;
+      margin:0 auto;
+    }
+    
+    .secondContainer{
+      width: 12300px;
+      float: left;
+      /* -webkit-transition:all 1.0s ease-in-out;
+      -moz-transition:all 1.0s ease-in-out;
+      -o-transition:all 1.0s ease-in-out; */
+       /* transition:all 1.0s ease-in-out;
+    }
+    .scroolContainer{
+      float: left;
+      width: 12300px;
+      transition: all 1.0s ease-in-out;
+      display: inline-flex;
+    }
+    .secondContainer img{
+      float:left;
+      padding:0;
+      margin:0;
+    }  */
+
+    /* .videoInsertRasa {
+      position: absolute; 
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto; 
+      z-index: -100;
+      background-size: cover;
+      overflow: hidden;
+  } */
 
