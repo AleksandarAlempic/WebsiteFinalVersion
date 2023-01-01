@@ -1,0 +1,330 @@
+
+
+/* Responsive Layout */
+
+/* Mobile Layout */
+
+@media only screen and (max-width:800px){
+ .divForPortfolio{
+      display: inline-block;
+  }
+
+  .mySlidesContactMe{
+    display: inline-block;
+  } 
+
+  .contentLeftSide{
+    margin-bottom: 124.7%;
+    position: fixed;
+    width: 100%;
+  }
+
+  .labelProjects{
+    margin-left: 50.3%;
+    margin-top: 35%;
+    width: 9%;
+    font-size: 95px;
+    color: white;
+    z-index: 35;
+    background: rgb(25,21,20);
+    background: rgba(0, 0, 0, 0.3);  /*Black background with 0.5 opacity */
+  }
+
+  .LabelForContactMeForm{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 62.9%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+
+  .labelForExpirience{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 66.5%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+
+  .ContactMeLeftFirstBackground{
+    width: 4095px;
+    height: 2850px;
+    background: ;
+    }
+
+  .ContactMeForm{
+    width: 1800px;
+    height: 1480px;
+    font-size: 90px;
+    overflow: hidden;
+    margin-left: 3%;
+    margin-top: 70.9%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .labelForContactMe{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 16.9%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+
+  .ContactMe{
+    width: 1800px;
+    height: 680px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 25.9%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .labelForIntro{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 17%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+   
+  .labelForCertification{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 95.2%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+
+
+  .Introduction{
+    width: 1865px;
+    height: 800px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 25%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .Expirience{
+    width: 1865px;
+    height: 400px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 74%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .Certification{
+    width: 1865px;
+    height: 650px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 102%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .btnSend{
+    font-size: 85px;
+    font-weight: 550;
+    font-style: normal;
+    width: 350px;
+    height: 200px;
+    margin-left: 35%;
+    margin-bottom: 85%;
+    border-radius: 10%;
+    color: black;
+     /* background: rgb(25,21,20);  */
+    /* background: rgba(0, 0, 0, 0.9); */
+    z-index: 15;
+  }
+
+  .inputEmail{
+    margin-left: 22.5%;
+    margin-top: 23%;
+    width:700px;
+    height:120px;
+    font-size: 80px;
+    color: white;
+    border-color: white;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.6)
+  }
+
+
+  .inputFullName{
+    margin-left: 10.5%;
+    margin-top: 23%;
+    width:700px;
+    height:120px;
+    font-size: 80px;
+    color: white;
+    border-color: white;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.6)
+  }
+
+  .inputBody{
+    margin-left: 6.5%;
+    margin-top: 9.5%;
+    width:1150px;
+    height:800px;
+    font-size: 80px;
+    color: white;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.6);
+    border-color: white;
+  }
+
+ .homePageLeftDefaultBackground{
+    width: 100%;
+  height: 100%;
+  background: url('../images/HomePage/HomePageRight1.jpg');
+  }
+
+  .homePageLeftSecondBackground{
+    width: 100%;
+    height: 100%;
+    background: url('../images/HomePage/HomePage1Mobile.jpg');
+  }
+
+  .homePageLeftThirdBackground{
+    width: 100%;
+    height: 100%;
+    background: url('../images/HomePage/HomePageRight2.jpg');
+  } 
+
+  .next {
+    right: 3.1%;
+    border-radius: 3px 0 0 3px;
+  }
+ 
+  .Iframe1{
+    text-align: end;
+    width: 980px;
+    padding-bottom: 5%;
+    margin-left: 35%;
+    margin-top: 0.1%; 
+    z-index: 1;
+    flex: 30%;
+  }
+
+  .Iframe2{
+    text-align: end;
+    width: 980px;
+    height: 2%;
+    padding-bottom: 5%;
+    margin-left: 35%;
+    z-index: 1;
+    flex: 30%;
+  }
+
+  .Iframe3{
+    text-align: end;
+    width: 980px;
+    padding-bottom: 5%;
+    margin-left: 35%;
+    z-index: 1;
+    flex: 30%;
+}
+}
+
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+    z-index: 500;
+  }
+} */
+
+/* On screens that are 600px wide or less, the background color is olive */
+/* @media only screen and (max-width: 768px) {
+  background-color: olive;
+} */
+
+
+
+/* Media Queries: Tabled Portrait */
+/* @media screen and (max-width: 768px) {
+  .HomePageLeft { width:100%; }
+  .HomePageRight { width:100%; margin:0; border:none; }
+} */
+
+img { max-width: 100%; height: auto; }
+
+
+/* 
+ @media (max-device-width:1200px) {
+  .HomePageRight{
+    display: none;
+  }
+}  */
+
+
+/* @media (min-device-width:1200px) {
+  .HomePageRight{
+    display: flex;
+  }
+}  */
+/* 
+@media (max-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+} */
+
+
