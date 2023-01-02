@@ -16,8 +16,8 @@ textarea{
   transform: scale(50%);
   transform-origin: top left; 
   min-width: 200%;
-  overflow-y: hidden; 
-  overflow-x: hidden; 
+  /* overflow-y: hidden; 
+  overflow-x: hidden;  */
   /* height: 200%;
   min-width: 8000px; */ 
   /* transform-origin: top left; */
@@ -57,9 +57,9 @@ ul {
   
   .contentLeftSide {
     display: inline-flex;
-    width: 63.4%;
+    width: 64.1%;
     height: 3.7%;
-    margin-top: 0.21%;
+    margin-top: 0.03%;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,7 +69,6 @@ ul {
     bottom: 0;
     color: #f1f1f1;
     padding: 100px;
-    overflow: hidden;
   }
 
   
@@ -84,13 +83,12 @@ ul {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     padding: 0.90%;
-    margin-top: 10px;
+    margin-top: 1px;
   }
 
 .HomePageLeft{
   min-width: 4095px;
   min-height: 2950px;
-  overflow: hidden;
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -98,7 +96,6 @@ ul {
 .HomePageRight{
   min-width: 100%;
   min-height: 100%;
-  overflow: hidden;
   position: right;
 }
 
@@ -260,7 +257,6 @@ ul {
               margin-top: 7.9%;
               position: absolute;
               opacity: 0.75;
-              overflow: hidden;
               z-index: 3;
               color: white;
               background: rgb(30,21,20); 
@@ -349,7 +345,6 @@ ul {
               margin-top: 7.9%;
               position: absolute;
               opacity: 0.75;
-              overflow: hidden;
               z-index: 3;
               color: white;
               background: rgb(30,21,20); 
@@ -386,7 +381,6 @@ ul {
               width: 2300px;
               height: 400px;
               font-size: 85px;
-              overflow: hidden;
               margin-left: 20%;
               margin-top: 1425px;
               position: absolute;
@@ -402,7 +396,6 @@ ul {
               width: 2300px;
               height: 550px;
               font-size: 85px;
-              overflow: hidden;
               margin-left: 20%;
               margin-top: 1425px;
               position: absolute;
@@ -417,12 +410,10 @@ ul {
               width: 2300px;
               height: 1400px;
               font-size: 85px;
-              overflow: hidden;
               margin-left: 20%;
               margin-top: 21.9%;
               position: absolute;
               opacity: 0.75;
-              overflow: hidden;
               z-index: 3;
               color: white;
               background: rgb(30,21,20); 
@@ -433,7 +424,6 @@ ul {
               width: 2200px;
               height: 1250px;
               font-size: 85px;
-              overflow: hidden;
               margin-left: 20.9%;
               margin-top: 16.5%;
               position: absolute;
@@ -628,7 +618,6 @@ ul {
               width: 2300px;
               height: 675px;
               font-size: 85px;
-              overflow: hidden;
               margin-left: 20%;
               margin-top: 1995px;
               position: absolute;
@@ -780,7 +769,6 @@ img {vertical-align: middle;}
   background: rgb(25,21,20); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   box-shadow:  0 40px 100px rgba(255,255,255, 0.01);
-  overflow: hidden;
   color: #d5eebb;
   margin-bottom: 1200px;
   border-radius: 0.1%;

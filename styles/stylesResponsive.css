@@ -66,16 +66,54 @@
     width: 1800px;
     height: 1480px;
     font-size: 90px;
-    overflow: hidden;
     margin-left: 3%;
     margin-top: 70.9%;
     position: absolute;
     opacity: 0.75;
-    overflow: hidden;
     z-index: 3;
     color: white;
     background: rgb(30,21,20); 
     background: rgba(0, 0, 0, 0.9);
+  }
+
+  .labelForOther{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 17%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+  }
+   
+  .Hobbies{
+    width: 1865px;
+    height: 400px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 74%;
+    position: absolute;
+    opacity: 0.75;
+    z-index: 3;
+    color: white;
+    background: rgb(30,21,20); 
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .labelForHobbies{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 62.9%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
   }
 
   .labelForContactMe{
@@ -99,7 +137,6 @@
     margin-top: 25.9%;
     position: absolute;
     opacity: 0.75;
-    overflow: hidden;
     z-index: 3;
     color: white;
     background: rgb(30,21,20); 
@@ -141,7 +178,6 @@
     margin-top: 25%;
     position: absolute;
     opacity: 0.75;
-    overflow: hidden;
     z-index: 3;
     color: white;
     background: rgb(30,21,20); 
@@ -156,7 +192,6 @@
     margin-top: 74%;
     position: absolute;
     opacity: 0.75;
-    overflow: hidden;
     z-index: 3;
     color: white;
     background: rgb(30,21,20); 
@@ -171,7 +206,6 @@
     margin-top: 102%;
     position: absolute;
     opacity: 0.75;
-    overflow: hidden;
     z-index: 3;
     color: white;
     background: rgb(30,21,20); 
@@ -284,47 +318,24 @@
 }
 
 /* @media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-    color: white;
-    z-index: 500;
-  }
-} */
+Enter all base code here
 
-/* On screens that are 600px wide or less, the background color is olive */
-/* @media only screen and (max-width: 768px) {
-  background-color: olive;
-} */
-
-
-
-/* Media Queries: Tabled Portrait */
-/* @media screen and (max-width: 768px) {
-  .HomePageLeft { width:100%; }
-  .HomePageRight { width:100%; margin:0; border:none; }
-} */
-
-img { max-width: 100%; height: auto; }
-
-
-/* 
- @media (max-device-width:1200px) {
-  .HomePageRight{
-    display: none;
-  }
+-- TABLET --
+@media(min-width: 641px) {
+  ...
+} 
+/*-- SMALL DESKTOP --*/
+/* @media(min-width: 768px) {
+  ...
+}  */
+/*-- DESKTOP --*/
+/* @media(min-width: 992px) {
+  ...
+}  */
+/* -- BIG DESKTOP (rarely used, but can be useful) --
+@media(min-width: 1280px) {
+  ...
 }  */
 
-
-/* @media (min-device-width:1200px) {
-  .HomePageRight{
-    display: flex;
-  }
-}  */
-/* 
-@media (max-device-width:800px) {
-  img[data-src-800px] {
-      content: attr(data-src-800px, url);
-  }
-} */
 
 
