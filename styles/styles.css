@@ -59,7 +59,7 @@ ul {
     display: inline-flex;
     width: 63.4%;
     height: 3.7%;
-    margin-top: 0.21%;
+    margin-top: 0.02%;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,13 +69,14 @@ ul {
     bottom: 0;
     color: #f1f1f1;
     padding: 100px;
+    text-align: left;
     overflow: hidden;
   }
 
   
   .contentRightSide {
     height: 17.7%;
-    width: 30.9%;
+    width: 31.3%;
     top: 0;
     position: absolute;
     z-index:30;
@@ -84,7 +85,7 @@ ul {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     padding: 0.90%;
-    margin-top: 10px;
+    margin-top: 0.02%;
   }
 
 .HomePageLeft{
@@ -202,7 +203,15 @@ ul {
             /* .IndividualTextFonts{
               font-size: 92px;
             } */
-
+            .labelforWarehouse{
+              margin-left: 26%;
+              font-size: 95px;
+              color: white;
+              opacity: 0.7;
+              background: rgb(25,21,20); 
+              background: rgba(0, 0, 0, 0.6);
+            }
+            
             .labelforProject{
               margin-left: 18%;
               margin-top: 70%;
@@ -357,8 +366,8 @@ ul {
             }
 
             .divIntroduction1  {
-              width: 2155px;
-              height: 400px;
+              width: 2300px;
+              height: 785px;
               position: relative;
               font-size: 87px;
               margin-left: 65px; 
@@ -718,7 +727,7 @@ ul {
     font-style: normal;
     font-size: 80px;
     display: inline;
-    margin-left: 110px;
+    margin-left: 2.5%;
 }
 
 .textForIntro{
@@ -755,6 +764,10 @@ img {vertical-align: middle;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+
+.HomepageMobileView{
+  display: none;
 }
 
 .active, .dot:hover {

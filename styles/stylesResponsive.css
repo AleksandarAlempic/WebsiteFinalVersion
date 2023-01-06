@@ -12,17 +12,57 @@
   .mySlidesContactMe{
     display: inline-block;
   } 
+  
+  
+  html, body{
+    display: flexbox;
+    transform: scale(50%);
+    transform-origin: top left; 
+    min-width: 200%;
+ 
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    /* height: 200%;
+    min-width: 8000px; */ 
+    /* transform-origin: top left; */
+    /* transform: scale(50%);
+    */
+  } 
 
+
+  .main{
+    display: inline-flex;
+    flex: 1; 
+    overflow: scroll;
+  }
   .contentLeftSide{
     margin-bottom: 124.7%;
+    display: flex;
     position: fixed;
     width: 100%;
   }
 
-  .labelProjects{
-    margin-left: 50.3%;
-    margin-top: 35%;
-    width: 9%;
+  .text{
+    margin-right: 40px;
+    margin-left: 1%;
+    padding-bottom: 10px;
+    color: white;
+    font-style: normal;
+    font-size: 80px;
+    display: inline;
+}
+
+.linkClass{
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  font-size: 83px;
+}
+
+ .labelProjects{
+    margin-left: 29.5%;
+    margin-top: 34%;
+    width: 35%;
     font-size: 95px;
     color: white;
     z-index: 35;
@@ -30,10 +70,21 @@
     background: rgba(0, 0, 0, 0.3);  /*Black background with 0.5 opacity */
   }
 
+  .LabelForContactFullName{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: 85px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    z-index: 3;
+  }
+
   .LabelForContactMeForm{
     position: absolute;
     margin-left: 3%;
-    margin-top: 62.9%;
+    margin-top: 70.9%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -46,7 +97,7 @@
   .labelForExpirience{
     position: absolute;
     margin-left: 3%;
-    margin-top: 66.5%;
+    margin-top: 84%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -59,16 +110,15 @@
   .ContactMeLeftFirstBackground{
     width: 4095px;
     height: 2850px;
-    background: ;
     }
 
   .ContactMeForm{
-    width: 1800px;
-    height: 1480px;
+    width: 1465px;
+    height: 1420px;
     font-size: 90px;
     overflow: hidden;
     margin-left: 3%;
-    margin-top: 70.9%;
+    margin-top: 77.9%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -90,9 +140,9 @@
     background: rgba(0, 0, 0, 0.8);
     z-index: 3;
   }
-
+   
   .ContactMe{
-    width: 1800px;
+    width: 1465px;
     height: 680px;
     font-size: 90px;
     margin-left: 3%;
@@ -109,7 +159,7 @@
   .labelForIntro{
     position: absolute;
     margin-left: 3%;
-    margin-top: 17%;
+    margin-top: 22%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -122,7 +172,7 @@
   .labelForCertification{
     position: absolute;
     margin-left: 3%;
-    margin-top: 95.2%;
+    margin-top: 120.2%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -134,11 +184,11 @@
 
 
   .Introduction{
-    width: 1865px;
+    width: 1465px;
     height: 800px;
     font-size: 90px;
     margin-left: 3%;
-    margin-top: 25%;
+    margin-top: 31%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -149,11 +199,11 @@
   }
 
   .Expirience{
-    width: 1865px;
+    width: 1465px;
     height: 400px;
     font-size: 90px;
     margin-left: 3%;
-    margin-top: 74%;
+    margin-top: 93%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -163,12 +213,59 @@
     background: rgba(0, 0, 0, 0.9);
   }
 
+  .audioContainer{
+    position: absolute;
+    float: left;
+    margin-left: 21%;
+    margin-top: 122%;
+    width: 875px;
+    height: 715px;
+    background: rgb(25,21,20); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    box-shadow:  0 40px 100px rgba(255,255,255, 0.01);
+    overflow: hidden;
+    color: #d5eebb;
+    margin-bottom: 1200px;
+    border-radius: 0.1%;
+    z-index: 2;
+    border-radius: 10%;
+  }
+
+  .divIntroduction1{
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+    font-size: 87px;
+    margin-left: 65px; 
+    margin-top: 50px;
+    margin-right: 10px;
+    font-style: normal;
+    opacity: 0.75;
+    background: none;
+    z-index: 3;
+  }
+
+  .divExpirience1  {
+    width: 1400px;
+    height: 500px;
+    position: relative;
+    font-size: 85px;
+    /* animation: mymove 6s infinite;
+    animation-delay: 5.5s; */
+    margin-left: 65px; 
+    margin-top: 40px;
+    font-style: normal;
+    /* opacity: 0.75; */
+    background: none;
+    z-index: 3;
+  }
+
   .Certification{
-    width: 1865px;
+    width: 1465px;
     height: 650px;
     font-size: 90px;
     margin-left: 3%;
-    margin-top: 102%;
+    margin-top: 129%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -194,11 +291,11 @@
   }
 
   .inputEmail{
-    margin-left: 22.5%;
+    margin-left: 13%;
     margin-top: 23%;
     width:700px;
     height:120px;
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     border-color: white;
     background: rgb(25,21,20); 
@@ -207,11 +304,11 @@
 
 
   .inputFullName{
-    margin-left: 10.5%;
-    margin-top: 23%;
-    width:700px;
+    margin-left: 4.3%;
+    margin-top: 24.3%;
+    width:650px;
     height:120px;
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     border-color: white;
     background: rgb(25,21,20); 
@@ -249,17 +346,32 @@
   } 
 
   .next {
-    right: 3.1%;
+    right: 2.5%;
     border-radius: 3px 0 0 3px;
+  }
+
+  .HomepageMobileView{
+    display: block;
+    width: 1465px;
+    height: 800px;
+    font-size: 90px;
+    margin-left: 3%;
+    margin-top: 21%;
+    position: absolute;
+    opacity: 0.75;
+    overflow: hidden;
+    z-index: 3;
+    color: white;
+    background: none;
   }
  
   .Iframe1{
     text-align: end;
     width: 980px;
-    padding-bottom: 5%;
-    margin-left: 35%;
+    padding-bottom: 2%;
+    margin-left: 11.7%;
     margin-top: 0.1%; 
-    z-index: 1;
+    z-index: 25;
     flex: 30%;
   }
 
@@ -267,8 +379,8 @@
     text-align: end;
     width: 980px;
     height: 2%;
-    padding-bottom: 5%;
-    margin-left: 35%;
+    padding-bottom: 2%;
+    margin-left: 11.7%;
     z-index: 1;
     flex: 30%;
   }
@@ -276,11 +388,16 @@
   .Iframe3{
     text-align: end;
     width: 980px;
-    padding-bottom: 5%;
-    margin-left: 35%;
+    padding-bottom: 1.5%;
+    margin-left: 11.7%;
     z-index: 1;
     flex: 30%;
 }
+.portfolioImg{
+  width: 100%; 
+  height: 600px;
+}
+
 }
 
 /* @media screen and (max-width: 992px) {
