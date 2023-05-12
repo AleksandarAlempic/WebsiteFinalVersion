@@ -19,8 +19,8 @@
         </div>
         <a class="labelForContactMe">Contact me</a>
         <div class="ContactMe"> 
-            <div  class="fadeAboutMe">
-                <div class="divIntroduction1 fadeAboutMe">
+            <div class="fadeAboutMe">
+                <div class="divContactMe fadeAboutMe">
                     <br> 
                     Email: aleksandar.alempic93@gmail.com <br>
                     Telephone: +381659432381 <br>
@@ -30,8 +30,9 @@
         </div>
        <a class="LabelForContactMeForm">Send message</a>
        <div class="ContactMeForm"> 
+        <div class="fadeAboutMe">
         <form id="myForm">
-            <div  class="fadeAboutMe">
+            <div  class="fadeAboutMe desktopFormView">
             <table>
                 <tr style="display:inline-flex;">
                  <td> <a class="LabelForContactFullName">Full name</a>
@@ -65,13 +66,58 @@
                 </tr>
             </table>
         </div>
-        
+        <div  class="fadeAboutMe mobileFormView">
+            <table>
+                <tr style="display:inline-flex;">
+                 <td> <a class="LabelForContactFullName">Full name</a>
+                    <div>
+                        <input type="text" name="name" class="inputFullName" id="name">
+                        <div id = "nameValidation" class="error-hintFullname hidden fadeAboutMe">This is Mandatory field</div>
+                    </div></td>
+                    
+                </tr>
+            </table>
+            <table>
+                <tr style="display:inline-flex;">
+                    <td>
+                        <a class="LabelForContactEmail">Email</a>
+                        <div>
+                            <input name="email" class="inputEmail" id="email">
+                            <div id="emailValidation" class="error-hintEmail hidden fadeAboutMe">This is Mandatory field</div>
+                            <div id="emailValidationHiddenRegex" class="error-hintEmail hiddenRegex fadeAboutMe">Please enter a vaild mail</div>
+                        </div></td>
+               
+                </tr>
+            </table>
+            <table> 
+                <tr>
+                 <td> <a class="LabelForContactBody">Message</a>
+                    <div>
+                        <textarea  name="textarea" class="inputBody" name="textarea"></textarea>
+                    </div>
+                    <div id="bodyValidation" class="error-hintBody hidden fadeAboutMe">This is Mandatory field</div>
+                </td>
+                   
+                    </td>
+                </tr>
+            </table>
+            <table> 
+                <tr>
+                    <td>
+                        <div>
+                            <button type="submit" class="btnSend" id="btnSend">Send</button>
+                        </div></td>
+                </tr>
+            </table> 
+        </div>
        </form> 
+       </div>
     </div>
     </div>
     <div class="HomePageRight">
         <div class="ContactMePageRightimg1 SectionAtTheTop"></div>
         <div class="contentRightSide">
+            <div class="contentRightSideText">
             <p>
             <h3 class="textForIntro"> Welcome to Personal Portfolio page</h3>
             </p>
@@ -79,13 +125,12 @@
             <h3 class="textForIntro">Hello, I'm Aleksandar, a Software Engineer</h3>
             </p>
             <p>
-            <h3 class="textForIntro">Passionate with making solutions for your
+            <h3 class="textForIntro">Passionate with making solutions for your Business
             </h3>
             </p>
-            <h3 class="textForIntro">Business
-            </h3>
-            </p>    
+            </p>
         </div>
+    </div>
     </div>
 </div>
      <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
