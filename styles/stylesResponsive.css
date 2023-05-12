@@ -314,7 +314,6 @@
   }
 
   .divIntroduction1 {
-I
     display: flex;
     width: 2300px;
     height: 785px;
@@ -327,9 +326,8 @@ I
     background: none;
     z-index: 3;
     margin: auto;
-  width: 92%;
-
-  padding: 10px;
+    width: 92%;
+    padding: 10px;
   }
 
   .divContactMe{
