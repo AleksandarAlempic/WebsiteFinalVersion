@@ -243,7 +243,7 @@ ul {
             .labelForOther{
               position: absolute;
               margin-left: 20%;
-              margin-top: 5.7%;
+              margin-top: 29.3%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -253,20 +253,55 @@ ul {
               z-index: 3;
             }
 
-            .labelForContactMe{
+            .labelForTechnologies{
               position: absolute;
-              margin-left: 20%;
-              margin-top: 5.6%;
+              margin-left: 33%;
+              margin-top: 90.8%;
               font-size: 100px;
               font-style: normal;
               color: white;
               opacity: 0.9;
-              background: rgb(25,21,20); 
+              background: rgb(25,21,20);
               background: rgba(0, 0, 0, 0.8);
               z-index: 3;
             }
+
+            .mobileView{
+              display: none;
+            }
+
+            .OtherExpirience{
+              width: 2300px;
+              height: 680px;
+              font-size: 90px;
+              margin-left: 20%;
+              margin-top: 31.6%;
+              position: absolute;
+              opacity: 0.75;
+              overflow: hidden;
+              z-index: 3;
+              color: white;
+              background: rgb(30,21,20); 
+              background: rgba(0, 0, 0, 0.9); 
+            }
+            
             
             .ContactMe{
+              width: 2300px;
+              height: 680px;
+              font-size: 90px;
+              margin-left: 20%;
+              margin-top: 31.6%;
+              position: absolute;
+              opacity: 0.75;
+              overflow: hidden;
+              z-index: 3;
+              color: white;
+              background: rgb(30,21,20); 
+              background: rgba(0, 0, 0, 0.9);   
+            }
+
+            .ContactMeOnContacMe{
               width: 2300px;
               height: 680px;
               font-size: 90px;
@@ -281,12 +316,27 @@ ul {
               background: rgba(0, 0, 0, 0.9);   
             }
 
+            .Technologies {
+              width: 2300px;
+              height: 520px;
+              font-size: 90px;
+              margin-left: 20%;
+              margin-top: 34.9%;
+              position: absolute;
+              opacity: 0.75;
+              overflow: hidden;
+              z-index: 3;
+              color: white;
+              background: rgb(30,21,20);
+              background: rgba(0, 0, 0, 0.9);
+          }
+
             .OtherExpirience{
               width: 2300px;
               height: 680px;
               font-size: 90px;
               margin-left: 20%;
-              margin-top: 7.9%;
+              margin-top: 12.9%;
               position: absolute;
               opacity: 0.75;
               overflow: hidden;
@@ -299,7 +349,7 @@ ul {
             .labelForExpirience{
               position: absolute;
               margin-left: 20%;
-              margin-top: 21%;
+              margin-top: 5.7%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -310,22 +360,13 @@ ul {
             }
 
             .labelForHobbies{
-              position: absolute;
-              margin-left: 20%;
-              margin-top: 21%;
-              font-size: 100px;
-              font-style: normal;
-              color: white;
-              opacity: 0.9;
-              background: rgb(25,21,20); 
-              background: rgba(0, 0, 0, 0.8);
-              z-index: 3;
+              display: none;
             }
 
             .labelForCertification{
               position: absolute;
               margin-left: 20%;
-              margin-top: 1850px;
+              margin-top: 15.2%;
               font-size: 100px;
               font-style: normal;
               color: white;
@@ -374,7 +415,7 @@ ul {
               height: 785px;
               font-size: 90px;
               margin-left: 20%;
-              margin-top: 7.9%;
+              margin-top: 8.1%;
               position: absolute;
               opacity: 0.75;
               overflow: hidden;
@@ -393,7 +434,7 @@ ul {
             }
 
             .divIntroduction1  {
-              width: 2300px;
+              width: 2200px;
               height: 785px;
               position: relative;
               font-size: 87px;
@@ -424,7 +465,7 @@ ul {
               font-size: 85px;
               overflow: hidden;
               margin-left: 20%;
-              margin-top: 1425px;
+              margin-top: 500px;
               position: absolute;
               opacity: 0.75;
               z-index: 3;
@@ -432,22 +473,25 @@ ul {
               background: rgb(25,21,20); 
               background: rgba(0, 0, 0, 0.6)
             }
-
+             
+            .removeFirstCertification{
+              display: none;
+            }
             
-            .Hobbies{
+            .Hobbies {
               width: 2300px;
               height: 550px;
               font-size: 85px;
               overflow: hidden;
               margin-left: 20%;
-              margin-top: 1425px;
+              margin-top: 23.35%;
               position: absolute;
               opacity: 0.75;
               z-index: 3;
               color: white;
-              background: rgb(25,21,20); 
-              background: rgba(0, 0, 0, 0.6)
-            }
+              background: rgb(25,21,20);
+              background: rgba(0, 0, 0, 0.6);
+          }
 
             .ContactMeForm{
               width: 2300px;
@@ -482,18 +526,18 @@ ul {
 
 
 
-            .LabelForContactMeForm{
+            .labelForContactMe {
               position: absolute;
               margin-left: 20%;
-              margin-top: 19.5%;
+              margin-top: 5.6%;
               font-size: 100px;
               font-style: normal;
               color: white;
               opacity: 0.9;
-              background: rgb(25,21,20); 
+              background: rgb(25,21,20);
               background: rgba(0, 0, 0, 0.8);
               z-index: 3;
-            }
+          }
 
             .error-hintEmail{
               position: relative;
@@ -681,7 +725,7 @@ ul {
               font-size: 85px;
               overflow: hidden;
               margin-left: 20%;
-              margin-top: 1995px;
+             margin-top: 17.9%;
               position: absolute;
               opacity: 0.7;
               z-index: 3;
