@@ -67,7 +67,7 @@
   z-index: 1;
   color: white;
   text-decoration: none;
-  font-size: 75px;
+  font-size: 83px;
 }
 
  .labelProjects{
@@ -102,11 +102,10 @@
     z-index: 3;
   }
 
-
   .LabelForContactMeForm{
     position: absolute;
     margin-left: 30%;
-    margin-top: 24%;
+    margin-top: 62%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -119,7 +118,7 @@
   .labelForExpirience{
     position: absolute;
     margin-left: 28.5%;
-    margin-top: 24%;
+    margin-top: 84%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -130,24 +129,18 @@
   }
 
   .labelForOther{
-    display: none;
+    position: absolute;
+    margin-left: 26.4%;
+    margin-top: 21.9%;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    opacity: 0.9;
+    background: rgb(25,21,20); 
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
   }
 
-  .ContactMeOnContacMe{
-    width: 1336px;
-    height: 411px;
-    font-size: 90px;
-    margin-left: 3%;
-    margin-top: 33.9%;
-    position: absolute;
-    opacity: 0.75;
-    overflow: hidden;
-    z-index: 3;
-    color: white;
-    background: rgb(30,21,20);
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 3%;
-  }
   
 
   .ContactMeLeftFirstBackground{
@@ -162,7 +155,7 @@
     font-size: 70px;
     overflow: hidden;
     margin-left: 4.85%;
-    margin-top: 75%;
+    margin-top: 71%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -175,7 +168,7 @@
   .labelForContactMe{
     position: absolute;
     margin-left: 33%;
-    margin-top: 65%;
+    margin-top: 21.9%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -213,7 +206,7 @@
   .labelForIntro{
     position: absolute;
     margin-left: 34.1%;
-    margin-top: 23.5%;
+    margin-top: 22%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -225,22 +218,21 @@
    
   .labelForCertification{
     position: absolute;
-    margin-left: 2%;
-    margin-top: 64.2%;
-    font-size: 92px;
+    margin-left: 3%;
+    margin-top: 120.2%;
+    font-size: 100px;
     font-style: normal;
     color: white;
     opacity: 0.9;
-    background: rgb(25,21,20);
+    background: rgb(25,21,20); 
     background: rgba(0, 0, 0, 0.8);
     z-index: 3;
-    width: 102%;
   }
 
   .labelForHobbies{
     position: absolute;
     margin-left: 25%;
-    margin-top: 91%;
+    margin-top: 65%;
     font-size: 100px;
     font-style: normal;
     color: white;
@@ -256,28 +248,23 @@
     height: 800px;
     font-size: 70px;
     margin-left: 3%;
-    margin-top: 33.2%;
+    margin-top: 31%;
     border-radius: 3%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
     z-index: 3;
     color: white;
-    background: rgb(30,21,20);
+    background: rgb(30,21,20); 
     background: rgba(0, 0, 0, 0.9);
   }
 
-  .OtherExpirience{
-    display: none;
-  }
-
   .Expirience{
-    border-radius: 3%;
     width: 1345px;
     height: 400px;
     font-size: 70px;
     margin-left: 3%;
-    margin-top: 34%;
+    margin-top: 93%;
     position: absolute;
     opacity: 0.75;
     overflow: hidden;
@@ -288,7 +275,6 @@
   }
 
   .Hobbies{
-    display: NONE;
     width: 1345px;
     height: 500px;
     font-size: 70px;
@@ -313,7 +299,7 @@
     position: absolute;
     float: left;
     margin-left: 21%;
-    margin-top: 140%;
+    margin-top: 122%;
     width: 875px;
     height: 715px;
     background: rgb(25,21,20); /* Fallback color */
@@ -358,22 +344,6 @@
     z-index: 3;
   }
 
-  .Technologies{
-    width: 1345px;
-    height: 500px;
-    font-size: 70px;
-    margin-left: 3%;
-    border-radius: 3%;
-    margin-top: 101%;
-    position: absolute;
-    opacity: 0.75;
-    overflow: hidden;
-    z-index: 3;
-    color: white;
-    background: rgb(30,21,20); 
-    background: rgba(0, 0, 0, 0.9);
-  }
-
   .divExpirience1  {
     width: 1400px;
     height: 500px;
@@ -405,20 +375,18 @@
   }
 
   .Certification{
-    width: 1345px;
+    width: 1445px;
     height: 650px;
     font-size: 70px;
     margin-left: 3%;
-    margin-top: 74%;
+    margin-top: 129%;
     position: absolute;
-    border-radius: 3%;
     opacity: 0.75;
     overflow: hidden;
     z-index: 3;
     color: white;
-    background: rgb(30,21,20);
+    background: rgb(30,21,20); 
     background: rgba(0, 0, 0, 0.9);
-}
   }
 
   .btnSend{
