@@ -12,7 +12,7 @@ function SlideText() {
 
   if (newslideIndex > slides.length) {newslideIndex = 1}  
   slides[newslideIndex-1].style.display = "block";
-  setTimeout(SlideText, 16000); // Change image every 10 seconds
+  setTimeout(SlideText, 16000); // Change image every 16 seconds
 }
 
 let newslideIndexExpirience = 0;
@@ -28,7 +28,7 @@ function SlideTextExpirience() {
 
   if (newslideIndexExpirience > slides.length) {newslideIndexExpirience = 1}  
   slides[newslideIndexExpirience-1].style.display = "block";
-  setTimeout(SlideTextExpirience, 12000); // Change image every 10 seconds
+  setTimeout(SlideTextExpirience, 16000); // Change image every 15 seconds
 }
 
 let newslideIndexCertification = 0;
@@ -44,7 +44,7 @@ function SlideTextCertification() {
 
   if (newslideIndexCertification > slides.length) {newslideIndexCertification= 1}  
   slides[newslideIndexCertification-1].style.display = "block";
-  setTimeout(SlideTextCertification, 12000); // Change image every 10 seconds
+  setTimeout(SlideTextCertification, 16000); // Change image every 10 seconds
 }
 
 let newslideIndexCertificationIndividual = 0;
@@ -60,7 +60,7 @@ function SlideTextCertificationIndividual() {
 
   if (newslideIndexCertificationIndividual > slides.length) {newslideIndexCertificationIndividual= 1}  
   slides[newslideIndexCertificationIndividual-1].style.display = "block";
-  setTimeout(SlideTextCertificationIndividual, 6000); // Change image every 5 seconds
+  setTimeout(SlideTextCertificationIndividual, 8000); // Change image every 5 seconds
 }
 
 let newslideIndexCertificationIndividual1 = 0;
@@ -75,8 +75,8 @@ function SlideTextCertificationIndividual1() {
   newslideIndexCertificationIndividual1++;
 
   if (newslideIndexCertificationIndividual1 > slides.length) {newslideIndexCertificationIndividual1= 1}  
-  slides[newslideIndexCertificationIndividual-1].style.display = "block";
-  setTimeout(SlideTextCertificationIndividual1, 6000); // Change image every 5 seconds
+  slides[newslideIndexCertificationIndividual1-1].style.display = "block";
+  setTimeout(SlideTextCertificationIndividual1, 8000); // Change image every 5 seconds
 }
 
 let newslideIndexCertificationIndividual2 = 0;
@@ -92,8 +92,26 @@ function SlideTextCertificationIndividual2() {
 
   if (newslideIndexCertificationIndividual2 > slides.length) {newslideIndexCertificationIndividual2= 1}  
   slides[newslideIndexCertificationIndividual2-1].style.display = "block";
-  setTimeout(SlideTextCertificationIndividual2, 6000); // Change image every 5 seconds
+  setTimeout(SlideTextCertificationIndividual2, 8000); // Change image every 5 seconds
 }
+
+let newslideIndexCertificationIndividual3 = 0;
+SlideTextCertificationIndividual3();
+
+function SlideTextCertificationIndividual3() {
+  let i;
+  let slides = document.getElementsByClassName("mySlidesLeftBackgroundCertificationsIndividual3");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  newslideIndexCertificationIndividual3++;
+
+  if (newslideIndexCertificationIndividual3 > slides.length) {newslideIndexCertificationIndividual3= 1}  
+  slides[newslideIndexCertificationIndividual3-1].style.display = "block";
+  setTimeout(SlideTextCertificationIndividual3, 8000); // Change image every 5 seconds
+}
+
+
 
 let slideIndex = 0;
 showSlides();
@@ -127,7 +145,7 @@ function showSlidesContactMe() {
   slideIndex1++;
   if (slideIndex1 > slides.length) {slideIndex1 = 1}    
   slides[slideIndex1-1].style.display = "block";  
-  setTimeout(showSlidesContactMe, 48000); // Change image every 48 seconds
+  setTimeout(showSlidesContactMe, 48000); // Change image every 60 seconds
 }
 
 let slideIndex11 = 0;
@@ -142,7 +160,7 @@ function showSlidesContactMeOther() {
   slideIndex11++;
   if (slideIndex11 > slides.length) {slideIndex11 = 1}    
   slides[slideIndex11-1].style.display = "block";  
-  setTimeout(showSlidesContactMeOther, 24000); // Change image every 48 seconds
+  setTimeout(showSlidesContactMeOther, 36000); // Change image every 48 seconds
 }
 
 
